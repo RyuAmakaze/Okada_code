@@ -1,9 +1,9 @@
 # Okada_code
 
-## Imageフォルダ
+## 1.Imageフォルダ
 画像ファイルが複数枚格納されている．
 
-## PowerSpectrum.ipynb
+## 2.PowerSpectrum.ipynb
 Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
 MIX(A,B)と指定すれば，  
 位相はAスペクトルはA，  
@@ -12,17 +12,17 @@ MIX(A,B)と指定すれば，
 位相はBスペクトルはA，  
 を表示する．
 
-## sketch_01phaseANDspec.pde
+## 3.sketch_01phaseANDspec.pde
 Processing(https://processing.org/)  
 pre_01phase_specフォルダを同階層に置いて，動作する．
   
-### pre_01phase_specフォルダ
-pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす． 
-![image](https://user-images.githubusercontent.com/43159778/132652381-a5f85028-60ab-41fc-abda-865995b71a4f.png)
+### 3.1 pre_01phase_specフォルダ
+pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす．   
+![image](https://user-images.githubusercontent.com/43159778/132652381-a5f85028-60ab-41fc-abda-865995b71a4f.png)  
 フォルダ名0,5,10,15,は位相をどれだけ行ったか．[0=0, 128 = πに相当．]
 ファイル名53_1.pngはカットオフ周波数_(1=バタワースフィルタ，3=位相変調のあるフィルタ)
 
-### controlP5のインストール手順．  
+### 3.2 controlP5のインストール手順．  
 #### ・ツールを追加する．  
 ![image](https://user-images.githubusercontent.com/43159778/132651608-55171b5f-02de-4d83-96dd-bebd0db45b3c.png)
 
