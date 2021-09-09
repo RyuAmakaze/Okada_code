@@ -1,5 +1,8 @@
 # Okada_code
 
+## Imageフォルダ
+画像ファイルが複数枚格納されている．
+
 ## PowerSpectrum.ipynb
 Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
 MIX(A,B)と指定すれば，  
