@@ -13,6 +13,10 @@ MIX(A,B)と指定すれば，
 を表示する．
 
 ## sketch_01phaseANDspec.pde
+pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす．  
+
+
+
 Processing(https://processing.org/)を用いる．
 controlP5のインストール手順．  
 
