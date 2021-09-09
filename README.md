@@ -11,3 +11,5 @@ MIX(A,B)と指定すれば，
 位相はBスペクトルはB，  
 位相はBスペクトルはA，  
 を表示する．
+
+## sketch_01phaseANDspec.pde
