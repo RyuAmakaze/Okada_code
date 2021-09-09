@@ -13,7 +13,7 @@ MIX(A,B)と指定すれば，
 を表示する．
 
 ## sketch_01phaseANDspec.pde
-Processing(https://processing.org/)
+Processing(https://processing.org/)  
 pre_01phase_specフォルダを同階層に置いて，動作する．
   
 ### pre_01phase_specフォルダ
