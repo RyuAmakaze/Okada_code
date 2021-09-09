@@ -1,7 +1,7 @@
-## Generate_FilterdWords.ipynb
+## 1.Generate_FilterdWords.ipynb
 バタワースと位相変調含めたフィルタの2つの画像を生成する．
 
-### not pychopy
+### 1.1 not pychopy
 pip install pychopy
 
 ## sketch_01phaseANDspec.pde
