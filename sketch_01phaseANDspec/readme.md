@@ -1,5 +1,5 @@
 ## 1.Generate_FilterdWords.ipynb
-バタワースと位相変調含めたフィルタの2つの画像を生成する．
+バタワースと位相変調含めたフィルタ，2つのフィルタを通した画像を生成する．
 
 ### 1.1 ModuleNotFoundError: No module named 'psychopy'
 pip install psychopy  
