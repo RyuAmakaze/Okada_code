@@ -6,7 +6,7 @@ A~Zまでの26文字の画像ファイルが複数枚格納されている．
 <br>
 <br>
 
-## 2.PowerSpectrum.ipynb
+## 1.PowerSpectrum.ipynb
 Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
 MIX(A,B)と指定すれば，  
 位相はAスペクトルはA，  
@@ -18,10 +18,10 @@ MIX(A,B)と指定すれば，
 <br>
 <br>
 
-## 3.experiment_which_alphabet_use
+## 1.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
 
-### 3.1 experiment_which_alphabet_use.pde
+### 1.1 experiment_which_alphabet_use.pde
 画像表示、被験者によるアルファベット回答を１試行としてします。
 
 #### 実験の流れ
@@ -43,10 +43,10 @@ MIX(A,B)と指定すれば，
 * バタワースフィルタ適用画像のみが表示されます。<br>
 * 同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
 
-### 3.2 fixation_point.png
+### 1.2 fixation_point.png
 このファイルはダウンロードしてください。
 
-### 3.3 okada_cpd4-5
+### 1.3 okada_cpd4-5
 岡田がcpd4,5で実験した結果です。ほとんど全部読めたので、cpd3~4で実験します。このファイルはダウンロード不要です。（ダウンロードしても動きます。）
 
 <br>
