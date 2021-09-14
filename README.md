@@ -58,13 +58,13 @@ min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを�
 最初の注視点表示時間( initial_nothing_display_ms ), 被験者による回答時間( catch_answer_ms ), 注視点表示時間( catch_answer_ms )は先行研究に依ってないです。
 
 #### して欲しいこと
-同じ階層に`480x480`というフォルダを作成して、そこにバタワースフィルタとその他のフィルタを適用した画像を保存してください。`Character_onBlack___Passed_butter_another.ipynb`で作成できます。<br>
-実験する前に、スクリーンと目との距離を測って、`screen_to_eye_mm`という変数に代入して欲しいです。<br>
-`min_cpd`でも全て読める場合は、`min_cpd`（と`max_cpd`）を小さくしてください。
+* 同じ階層に`480x480`というフォルダを作成して、そこにバタワースフィルタとその他のフィルタを適用した画像を保存してください。`Character_onBlack___Passed_butter_another.ipynb`で作成できます。<br>
+* 実験する前に、スクリーンと目との距離を測って、`screen_to_eye_mm`という変数に代入して欲しいです。<br>
+* `min_cpd`でも全て読める場合は、`min_cpd`（と`max_cpd`）を小さくしてください。
 ただ、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle　〜　max_cycle`から外れる範囲の`min_cpd`〜`max_cpd`を指定するとエラーが出ます。
 この場合は、`min_cpd`〜`max_cpd`が`min_cycle`〜`max_cycle`に含まれるように、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle`,`max_cycle`を変更、実行してください。
 
 #### 補足説明
-cpdの刻み幅（`cpd_stride`）は１としています。<br>
-バタワースフィルタ適用画像のみが表示されます。<br>
-同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
+*cpdの刻み幅（`cpd_stride`）は１としています。<br>
+*バタワースフィルタ適用画像のみが表示されます。<br>
+*同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
