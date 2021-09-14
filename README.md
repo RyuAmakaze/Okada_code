@@ -8,7 +8,7 @@ A~Zまでの26文字の画像ファイルが複数枚格納されている．
 
 ## 2.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
-*`Character_onBlack___Passed_butter_another.ipynb`を先に実行してください。*
+**`Character_onBlack___Passed_butter_another.ipynb`を先に実行してください。**
 
 ### 2.1 experiment_which_alphabet_use.pde
 画像表示、被験者によるアルファベット回答を１試行としてします。
