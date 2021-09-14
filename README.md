@@ -1,12 +1,12 @@
 # Okada_code
 
-## * .Imageフォルダ
+## 1.Imageフォルダ
 A~Zまでの26文字の画像ファイルが複数枚格納されている．
 
 <br>
 <br>
 
-## * .PowerSpectrum.ipynb
+## 1.PowerSpectrum.ipynb
 Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
 MIX(A,B)と指定すれば，  
 位相はAスペクトルはA，  
@@ -18,10 +18,10 @@ MIX(A,B)と指定すれば，
 <br>
 <br>
 
-## * .experiment_which_alphabet_use
+## 1.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
 
-### * .1 experiment_which_alphabet_use.pde
+### 1.1 experiment_which_alphabet_use.pde
 画像表示、被験者によるアルファベット回答を１試行としてします。
 
 #### 実験の流れ
