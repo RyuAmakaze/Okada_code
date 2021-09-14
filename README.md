@@ -65,6 +65,6 @@ min_cpdでも全て読める場合は、　min_cpd　（と　max_cpd　）を�
 この場合は、min_cpd 〜　max_cpd　がmin_cycle　〜　max_cycleに含まれるように、Character_onBlack___Passed_butter_another.ipynb　の　min_cycle　, max_cycle　を変更、実行してください。
 
 #### 補足説明
-cpdの刻み幅（cpd_stride）は１としています。<br>
+cpdの刻み幅（`cpd_stride`）は１としています。<br>
 バタワースフィルタ適用画像のみが表示されます。<br>
 同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
