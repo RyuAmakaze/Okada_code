@@ -8,6 +8,7 @@ A~Zまでの26文字の画像ファイルが複数枚格納されている．
 
 ## 2.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
+*`Character_onBlack___Passed_butter_another.ipynb`を先に実行してください。*
 
 ### 2.1 experiment_which_alphabet_use.pde
 画像表示、被験者によるアルファベット回答を１試行としてします。
@@ -20,11 +21,11 @@ A~Zまでの26文字の画像ファイルが複数枚格納されている．
 最初の注視点表示時間(`initial_nothing_display_ms`), 被験者による回答時間(`catch_answer_ms`), 注視点表示時間(`catch_answer_ms`)は先行研究に依ってないです。
 
 #### して欲しいこと
-* 同じ階層に`480x480`というフォルダを作成して、そこにバタワースフィルタとその他のフィルタを適用した画像を保存してください。`Character_onBlack___Passed_butter_another.ipynb`で作成できます。<br>
+* `480x480`フォルダにバタワースフィルタとその他のフィルタを適用した画像を保存してください。`Character_onBlack___Passed_butter_another.ipynb`で作成できます。<br>
 * 実験する前に、スクリーンと目との距離を測って、`screen_to_eye_mm`という変数に代入して欲しいです。<br>
 * `min_cpd`でも全て読める場合は、`min_cpd`（と`max_cpd`）を小さくしてください。
 ただ、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle　〜　max_cycle`から外れる範囲の`min_cpd`〜`max_cpd`を指定するとエラーが出ます。
-この場合は、`min_cpd`〜`max_cpd`が`min_cycle`〜`max_cycle`に含まれるように、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle`,`max_cycle`を変更、実行してください。
+この場合は、`min_cpd`〜`max_cpd`が`min_cycle`〜`max_cycle`に含まれるように、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle`,`max_cycle`を変更、実行お願いします。
 
 #### 補足説明
 * cpdの刻み幅（`cpd_stride`）は１としています。<br>
