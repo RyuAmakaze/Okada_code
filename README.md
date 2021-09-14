@@ -36,13 +36,13 @@ pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす．
 ### まずは、黒の地に白のアルファベットを描く画像を取得するプログラムについてです。
 new_dir_path　のフォルダの下に、黒の地に白のアルファベットを描く画像を保存してます。<br>
 正方形の画像を作成しています。　square　という変数で一辺のpixelを表現しています。<br>
-変更してほしい部分：new_dir_path
+変更してほしい部分：`new_dir_path`
 
 ### 次に、バタワースフィルタとその他のフィルタを適用した結果を取得するプログラムについてです。
 Passed_save_path　というフォルダに２つのフィルタを適用した結果を保存しています。<br>
 min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを何個表現できるかの下限と上限です。<br>
 ファイル名のAfilterはAnother LowpassFilterの略です。Bfilterはバタワース（Butterworth）フィルタの略です。<br>
-変更してほしい部分：Passed_save_path
+変更してほしい部分：`Passed_save_path`
 
 ## 3.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
@@ -54,8 +54,8 @@ min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを�
 注視点表示(最初のみ) =><br>
 画像表示　=> 被験者による回答　=> 注視点表示 (この行のサイクルを繰り返します)
 
-画像表示時間( image_display_ms )は、先行研究から200msにしています。<br>
-最初の注視点表示時間( initial_nothing_display_ms ), 被験者による回答時間( catch_answer_ms ), 注視点表示時間( catch_answer_ms )は先行研究に依ってないです。
+画像表示時間(`image_display_ms`)は、先行研究から200msにしています。<br>
+最初の注視点表示時間(`initial_nothing_display_ms`), 被験者による回答時間(`catch_answer_ms`), 注視点表示時間(`catch_answer_ms`)は先行研究に依ってないです。
 
 #### して欲しいこと
 * 同じ階層に`480x480`というフォルダを作成して、そこにバタワースフィルタとその他のフィルタを適用した画像を保存してください。`Character_onBlack___Passed_butter_another.ipynb`で作成できます。<br>
@@ -65,6 +65,6 @@ min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを�
 この場合は、`min_cpd`〜`max_cpd`が`min_cycle`〜`max_cycle`に含まれるように、`Character_onBlack___Passed_butter_another.ipynb`の`min_cycle`,`max_cycle`を変更、実行してください。
 
 #### 補足説明
-*cpdの刻み幅（`cpd_stride`）は１としています。<br>
-*バタワースフィルタ適用画像のみが表示されます。<br>
-*同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
+* cpdの刻み幅（`cpd_stride`）は１としています。<br>
+* バタワースフィルタ適用画像のみが表示されます。<br>
+* 同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
