@@ -6,22 +6,10 @@ A~Zまでの26文字の画像ファイルが複数枚格納されている．
 <br>
 <br>
 
-## 1.PowerSpectrum.ipynb
-Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
-MIX(A,B)と指定すれば，  
-位相はAスペクトルはA，  
-位相はAスペクトルはB，  
-位相はBスペクトルはB，  
-位相はBスペクトルはA，  
-を表示する．
-
-<br>
-<br>
-
-## 1.experiment_which_alphabet_use
+## 2.experiment_which_alphabet_use
 実験に使うアルファベットを決定するためのプログラムです。
 
-### 1.1 experiment_which_alphabet_use.pde
+### 2.1 experiment_which_alphabet_use.pde
 画像表示、被験者によるアルファベット回答を１試行としてします。
 
 #### 実験の流れ
@@ -43,10 +31,10 @@ MIX(A,B)と指定すれば，
 * バタワースフィルタ適用画像のみが表示されます。<br>
 * 同じ階層に、日時をファイル名としたcsvファイルができて、そこに実験結果が保存されます。最後にcsvファイルに保存するため、最後まで実験していただかないと実験結果が保存できない仕様になっています。<br>
 
-### 1.2 fixation_point.png
+### 2.2 fixation_point.png
 このファイルはダウンロードしてください。
 
-### 1.3 okada_cpd4-5
+### 2.3 okada_cpd4-5
 岡田がcpd4,5で実験した結果です。ほとんど全部読めたので、cpd3~4で実験します。このファイルはダウンロード不要です。（ダウンロードしても動きます。）
 
 <br>
@@ -86,3 +74,16 @@ pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす．
 `min_cycle`と`max_cycle`は、画像の範囲に白黒のしましまを何個表現できるかの下限と上限です。<br>
 ファイル名のAfilterはAnother LowpassFilterの略です。Bfilterはバタワース（Butterworth）フィルタの略です。<br>
 変更してほしい部分：`Passed_save_path`
+
+
+<br>
+<br>
+
+## 5.PowerSpectrum.ipynb
+Imagesフォルダにあるアルファベット画像のパワースペクトルと位相をクロスさせる．
+MIX(A,B)と指定すれば，  
+位相はAスペクトルはA，  
+位相はAスペクトルはB，  
+位相はBスペクトルはB，  
+位相はBスペクトルはA，  
+を表示する．
