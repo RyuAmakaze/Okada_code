@@ -28,3 +28,15 @@ pre_01phase_specフォルダ内の1.5GBの画像を入れて動かす．
 
 #### ・ライブラリを選択　→　ControlP5 で検索　→　Install  
 ![image](https://user-images.githubusercontent.com/43159778/132651693-86be2e28-86a9-4035-a70a-91db0f1366f7.png)
+
+## 4.Character_onBlack___Passed_butter_another.ipynb
+このファイルは２つのプログラムを含んでます。
+黒の地に白のアルファベットを描く画像を取得するプログラムと、その画像に対してバタワースフィルタとその他のフィルタを適用した結果を取得するプログラムです。
+まずは、黒の地に白のアルファベットを描く画像を取得するプログラムについてです。
+new_dir_path　のフォルダの下に、黒の地に白のアルファベットを描く画像を保存してます。
+正方形の画像を作成しています。　square　という変数で一辺のpixelを表現しています。
+
+次に、バタワースフィルタとその他のフィルタを適用した結果を取得するプログラムについてです。
+Passed_save_path　というフォルダに２つのフィルタを適用した結果を保存しています。
+min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを何個表現できるかの下限と上限をです。
+ファイル名のAfilterはAnother LowpassFilterの略です。Bfilterはバタワース（Butterworth）フィルタの略です。
