@@ -39,5 +39,5 @@ new_dir_path　のフォルダの下に、黒の地に白のアルファベッ�
 
 次に、バタワースフィルタとその他のフィルタを適用した結果を取得するプログラムについてです。
 Passed_save_path　というフォルダに２つのフィルタを適用した結果を保存しています。
-min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを何個表現できるかの下限と上限をです。
+min_cycle　と　max_cycle　は、画像の範囲に白黒のしましまを何個表現できるかの下限と上限です。
 ファイル名のAfilterはAnother LowpassFilterの略です。Bfilterはバタワース（Butterworth）フィルタの略です。
