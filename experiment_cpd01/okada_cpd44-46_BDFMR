@@ -1,0 +1,64 @@
+first dark screen ms, 7000, image display ms, 200, wait for subject respond, 4000, ms for next image display, 1000
+
+
+trial, Filter Name, Cutoff CPD, display Alphabet, subject answer
+1, Butterworth Filter, 4.4, B, B
+2, Butterworth Filter, 4.6, R, A
+3, Butterworth Filter, 4.4, M, M
+4, Another Filter, 4.5, R, R
+5, Another Filter, 4.6, B, O
+6, Another Filter, 4.4, F, 
+7, Another Filter, 4.6, B, C
+8, Butterworth Filter, 4.4, F, K
+9, Butterworth Filter, 4.6, F, 
+10, Butterworth Filter, 4.6, M, M
+11, Butterworth Filter, 4.6, M, M
+12, Butterworth Filter, 4.5, F, 
+13, Another Filter, 4.4, D, O
+14, Another Filter, 4.5, F, 
+15, Butterworth Filter, 4.4, B, 
+16, Another Filter, 4.5, R, 
+17, Another Filter, 4.4, M, M
+18, Another Filter, 4.5, M, M
+19, Another Filter, 4.6, R, 
+20, Another Filter, 4.4, D, O
+21, Butterworth Filter, 4.4, F, 
+22, Another Filter, 4.4, B, O
+23, Butterworth Filter, 4.4, D, D
+24, Butterworth Filter, 4.5, F, 
+25, Another Filter, 4.6, D, D
+26, Another Filter, 4.5, M, M
+27, Another Filter, 4.5, B, D
+28, Another Filter, 4.5, F, 
+29, Butterworth Filter, 4.5, M, M
+30, Butterworth Filter, 4.5, D, O
+31, Another Filter, 4.4, R, R
+32, Butterworth Filter, 4.5, B, 
+33, Butterworth Filter, 4.6, B, 
+34, Butterworth Filter, 4.5, B, 
+35, Butterworth Filter, 4.6, D, O
+36, Another Filter, 4.6, M, M
+37, Butterworth Filter, 4.6, F, 
+38, Butterworth Filter, 4.6, D, O
+39, Another Filter, 4.4, B, G
+40, Butterworth Filter, 4.4, R, K
+41, Butterworth Filter, 4.6, R, K
+42, Butterworth Filter, 4.4, R, 
+43, Another Filter, 4.6, D, O
+44, Another Filter, 4.5, D, O
+45, Butterworth Filter, 4.4, M, M
+46, Butterworth Filter, 4.5, D, O
+47, Another Filter, 4.6, M, M
+48, Another Filter, 4.6, F, 
+49, Butterworth Filter, 4.4, D, O
+50, Another Filter, 4.6, R, 
+51, Another Filter, 4.5, D, D
+52, Butterworth Filter, 4.6, B, 
+53, Butterworth Filter, 4.5, R, 
+54, Another Filter, 4.4, R, R
+55, Another Filter, 4.5, B, D
+56, Another Filter, 4.6, F, 
+57, Butterworth Filter, 4.5, R, R
+58, Butterworth Filter, 4.5, M, M
+59, Another Filter, 4.4, M, M
+60, Another Filter, 4.4, F, 
