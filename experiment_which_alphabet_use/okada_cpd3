@@ -1,0 +1,56 @@
+first dark screen ms, 7000, image display ms, 200, wait for subject respond, 5000, ms for next image display, 2000
+
+
+trial, Filter Name, Cutoff CPD, display Alphabet, subject answer
+1, Butterworth Filter, 3, U, U
+2, Butterworth Filter, 3, P, 
+3, Butterworth Filter, 3, I, 
+4, Butterworth Filter, 3, W, 
+5, Butterworth Filter, 3, B, T
+6, Butterworth Filter, 3, Y, Y
+7, Butterworth Filter, 3, M, U
+8, Butterworth Filter, 3, P, 
+9, Butterworth Filter, 3, D, O
+10, Butterworth Filter, 3, K, K
+11, Butterworth Filter, 3, H, X
+12, Butterworth Filter, 3, S, 
+13, Butterworth Filter, 3, F, 
+14, Butterworth Filter, 3, Q, Q
+15, Butterworth Filter, 3, Z, 
+16, Butterworth Filter, 3, Z, X
+17, Butterworth Filter, 3, K, K
+18, Butterworth Filter, 3, V, 
+19, Butterworth Filter, 3, O, O
+20, Butterworth Filter, 3, O, O
+21, Butterworth Filter, 3, D, Q
+22, Butterworth Filter, 3, F, 
+23, Butterworth Filter, 3, X, X
+24, Butterworth Filter, 3, G, G
+25, Butterworth Filter, 3, W, 
+26, Butterworth Filter, 3, V, 
+27, Butterworth Filter, 3, X, X
+28, Butterworth Filter, 3, L, 
+29, Butterworth Filter, 3, R, X
+30, Butterworth Filter, 3, M, 
+31, Butterworth Filter, 3, L, 
+32, Butterworth Filter, 3, R, 
+33, Butterworth Filter, 3, B, 
+34, Butterworth Filter, 3, C, C
+35, Butterworth Filter, 3, Q, D
+36, Butterworth Filter, 3, S, 
+37, Butterworth Filter, 3, E, 
+38, Butterworth Filter, 3, I, 
+39, Butterworth Filter, 3, T, T
+40, Butterworth Filter, 3, N, 
+41, Butterworth Filter, 3, A, A
+42, Butterworth Filter, 3, A, A
+43, Butterworth Filter, 3, G, U
+44, Butterworth Filter, 3, J, 
+45, Butterworth Filter, 3, C, C
+46, Butterworth Filter, 3, Y, Y
+47, Butterworth Filter, 3, T, T
+48, Butterworth Filter, 3, U, U
+49, Butterworth Filter, 3, E, K
+50, Butterworth Filter, 3, N, 
+51, Butterworth Filter, 3, H, H
+52, Butterworth Filter, 3, J, J
