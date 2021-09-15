@@ -1,0 +1,64 @@
+first dark screen ms, 7000, image display ms, 200, wait for subject respond, 4000, ms for next image display, 1000
+
+
+trial, Filter Name, Cutoff CPD, display Alphabet, subject answer
+1, Another Filter, 3.4, R, N
+2, Butterworth Filter, 3.6, R, M
+3, Butterworth Filter, 3.6, B, 
+4, Butterworth Filter, 3.5, D, O
+5, Butterworth Filter, 3.4, M, M
+6, Butterworth Filter, 3.5, R, X
+7, Another Filter, 3.4, D, O
+8, Butterworth Filter, 3.4, D, O
+9, Butterworth Filter, 3.4, B, 
+10, Another Filter, 3.4, B, X
+11, Another Filter, 3.4, F, 
+12, Butterworth Filter, 3.6, B, K
+13, Another Filter, 3.4, D, D
+14, Another Filter, 3.5, F, L
+15, Butterworth Filter, 3.4, B, K
+16, Butterworth Filter, 3.6, F, 
+17, Butterworth Filter, 3.5, M, M
+18, Another Filter, 3.6, R, M
+19, Another Filter, 3.6, R, X
+20, Butterworth Filter, 3.5, M, M
+21, Another Filter, 3.5, D, O
+22, Another Filter, 3.4, M, M
+23, Butterworth Filter, 3.4, F, 
+24, Another Filter, 3.5, R, X
+25, Butterworth Filter, 3.6, D, D
+26, Butterworth Filter, 3.4, D, D
+27, Another Filter, 3.6, M, M
+28, Another Filter, 3.6, D, D
+29, Butterworth Filter, 3.6, D, O
+30, Another Filter, 3.6, D, D
+31, Another Filter, 3.4, M, M
+32, Butterworth Filter, 3.6, F, 
+33, Butterworth Filter, 3.5, R, M
+34, Butterworth Filter, 3.5, B, A
+35, Butterworth Filter, 3.4, R, M
+36, Another Filter, 3.5, M, M
+37, Another Filter, 3.4, F, M
+38, Another Filter, 3.4, R, M
+39, Butterworth Filter, 3.6, M, M
+40, Another Filter, 3.5, R, X
+41, Butterworth Filter, 3.5, F, P
+42, Butterworth Filter, 3.4, M, M
+43, Another Filter, 3.6, F, K
+44, Another Filter, 3.5, F, K
+45, Another Filter, 3.5, D, G
+46, Butterworth Filter, 3.6, R, X
+47, Another Filter, 3.5, M, M
+48, Another Filter, 3.6, F, K
+49, Another Filter, 3.6, B, K
+50, Another Filter, 3.5, B, R
+51, Butterworth Filter, 3.4, R, X
+52, Butterworth Filter, 3.4, F, K
+53, Butterworth Filter, 3.6, M, M
+54, Butterworth Filter, 3.5, F, R
+55, Butterworth Filter, 3.5, B, X
+56, Another Filter, 3.6, M, M
+57, Butterworth Filter, 3.5, D, O
+58, Another Filter, 3.6, B, K
+59, Another Filter, 3.4, B, A
+60, Another Filter, 3.5, B, K
