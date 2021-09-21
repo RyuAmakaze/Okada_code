@@ -32,6 +32,6 @@ cpdの刻み幅は、0.1です。
 - パワースペクトル、位相応答、群遅延について、ベッセルフィルタとEllipフィルタを重ねたグラフを作成しています。
 
 ## このフォルダの使い方
-make_bessel_ellip_FIR
+`make_bessel_ellip_FIR`で元画像、フィルタ適用画像を作成後、`slider_experiment_bessel_ellip`で実験してください。
 
 ## 変更してほしい部分
